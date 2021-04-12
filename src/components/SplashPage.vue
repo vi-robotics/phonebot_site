@@ -1,13 +1,12 @@
 <template>
   <v-container>
-    <v-row class="align-center">
+    <v-row>
       <v-col cols="12">
-        <v-row class="pa-6" align="center"
-          ><v-img
-            :src="require('../assets/phonebot_demo.gif')"
-            contain
-            height="500"
-        /></v-row>
+        <v-row class="pa-6" justify="center">
+          <v-card rounded="xl">
+            <v-img width="800" :src="require('../assets/phonebot_demo.gif')" />
+          </v-card>
+        </v-row>
       </v-col>
     </v-row>
     <v-row justify="center" class="text-center">
