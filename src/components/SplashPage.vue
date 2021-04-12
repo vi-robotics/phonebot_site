@@ -32,9 +32,9 @@
           algorithms combining the mobile processing power of modern smart
           phones with a flexible and robust physical platform.
         </p>
-        <p class="subheading font-weight-regular">
+        <h2 class="subheading font-weight-regular">
           <b>Ready to get started?</b>
-        </p>
+        </h2>
       </v-col>
     </v-row>
     <v-row justify="center">
@@ -49,7 +49,7 @@
         </v-card>
       </v-col>
       <v-col class="mb-5" cols="3">
-        <v-card>
+        <v-card disabled>
           <v-row justify="center">
             <v-icon size="200">mdi-package-variant-closed</v-icon>
           </v-row>
@@ -59,7 +59,7 @@
         </v-card>
       </v-col>
       <v-col class="mb-5" cols="3">
-        <v-card>
+        <v-card disabled>
           <v-row justify="center">
             <v-icon size="200">mdi-currency-usd</v-icon>
           </v-row>
