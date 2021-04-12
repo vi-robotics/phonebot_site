@@ -39,15 +39,13 @@
     </v-row>
     <v-row justify="center">
       <v-col class="mb-5" cols="3">
-        <v-card>
+        <v-card href="https://github.com/vi-robotics/phonebot_docs">
           <v-row justify="center">
             <v-icon size="200">mdi-hammer-wrench</v-icon>
           </v-row>
-          <v-card-actions>
-            <v-btn href="https://github.com/vi-robotics/phonebot_docs" text
-              >Build From Scratch</v-btn
-            >
-          </v-card-actions>
+          <v-row justify="center" class="pa-5">
+            <h3>Build From Scratch</h3>
+          </v-row>
         </v-card>
       </v-col>
       <v-col class="mb-5" cols="3">
@@ -55,9 +53,9 @@
           <v-row justify="center">
             <v-icon size="200">mdi-package-variant-closed</v-icon>
           </v-row>
-          <v-card-actions>
-            <v-btn text>Get a Kit</v-btn>
-          </v-card-actions>
+          <v-row justify="center" class="pa-5">
+            <h3>Get a Kit</h3>
+          </v-row>
         </v-card>
       </v-col>
       <v-col class="mb-5" cols="3">
@@ -65,9 +63,9 @@
           <v-row justify="center">
             <v-icon size="200">mdi-currency-usd</v-icon>
           </v-row>
-          <v-card-actions>
-            <v-btn text>Buy a PhoneBot</v-btn>
-          </v-card-actions>
+          <v-row justify="center" class="pa-5">
+            <h3>Buy a PhoneBot</h3>
+          </v-row>
         </v-card>
       </v-col>
     </v-row>
